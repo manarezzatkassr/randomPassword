@@ -91,3 +91,20 @@ body
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 991px)
+{
+    .copy
+    {
+        top: 95px;
+        right: 15px;
+    }
+    .inputBox
+    {
+        text-align: center;
+    }
+    .inputBox input
+    {
+        width: 90%;
+        padding: 10px;
+    }
+}
